@@ -7,7 +7,7 @@ To develop a neural network regression model for the given dataset.
 Explain the problem statement
 
 ## Neural Network Model
-<img width="1291" height="946" alt="image" src="https://github.com/user-attachments/assets/8e9e7b21-c4e8-41be-b5a7-1a863e757a92" />
+<img width="1131" height="800" alt="image" src="https://github.com/user-attachments/assets/7debdd98-96a7-4fe7-a009-cbc7cd3bba45" />
 
 
 ## DESIGN STEPS
@@ -77,8 +77,8 @@ X_test_tensor = torch.tensor(X_test, dtype=torch.float32)
 y_test_tensor = torch.tensor(y_test, dtype=torch.float32).view(-1, 1)
 ```
 ```
-# Name:ishwarya 
-# Register Number:212224220039
+# Name:PRIYADHARSHINI E
+# Register Number:212223230159
 class NeuralNet(nn.Module):
   def __init__(self):
         super().__init__()
@@ -101,8 +101,8 @@ criterion = nn.MSELoss()
 optimizer = optim.RMSprop(ai_brain.parameters(), lr=0.001)
 ```
 ```
-# Name:ishwarya
-# Register Number:212224220039
+# Name:PRIYADHARSHINI E
+# Register Number:212223230159
 def train_model(ai_brain, X_train, y_train, criterion, optimizer, epochs=2000):
     for epoch in range(epochs):
         optimizer.zero_grad()
