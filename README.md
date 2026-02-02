@@ -58,9 +58,9 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import MinMaxScaler
 ```
 ```
-dataset1 = pd.read_csv('/content/CSV FILE.csv')
-X = dataset1[['INPUT']].values
-y = dataset1[['OUTPUT']].values
+dataset1 = pd.read_csv('/content/exp1.csv')
+X = dataset1[['Input']].values
+y = dataset1[['Output']].values
 ```
 ```
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.33, random_state=33)
