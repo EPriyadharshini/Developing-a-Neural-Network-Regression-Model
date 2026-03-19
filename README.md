@@ -4,7 +4,7 @@
 To develop a neural network regression model for the given dataset.
 
 ## THEORY
-Explain the problem statement
+Design a neural network model to solve a regression problem using a single input feature. The model uses multiple fully connected layers with ReLU activation to predict a continuous output value. Train the network using a loss function and optimizer over several epochs to minimize error. Track and display the training loss during the learning process.
 
 ## Neural Network Model
 <img width="1131" height="800" alt="image" src="https://github.com/user-attachments/assets/7debdd98-96a7-4fe7-a009-cbc7cd3bba45" />
